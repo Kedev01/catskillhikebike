@@ -1,6 +1,6 @@
 :root {
-    --header-height: 130px;
-    --menu-bg: #9ae9cf;
+    --header-height: 44px;
+    --menu-bg: #4f7a51;
 }
 
 body {
@@ -28,12 +28,12 @@ header img {
 nav {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: var(--header-height);
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 130px);
-    background: var(--menu-bg);
+  position: absolute;
+  top: 162px;
+  left: 0;
+  height: calc(100vh - 130px);
+  background: var(--menu-bg);
+  width: 100%;
 }
 
 nav a {
@@ -71,7 +71,8 @@ nav a {
         flex-direction: row;
         justify-content: flex-end;
         position: static;
-        width: 100%;
+        border-radius: 10px;
+        margin: 20px;
     }
 
     main {
